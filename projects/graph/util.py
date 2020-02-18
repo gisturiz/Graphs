@@ -1,5 +1,6 @@
 
 # Note: This Queue class is sub-optimal. Why?
+# Better to use LL or DLL for Queues because O(n) for removing from array
 class Queue():
     def __init__(self):
         self.queue = []
